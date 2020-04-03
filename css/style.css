@@ -5,7 +5,9 @@
 
 body{
     text-align: center;
-
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/background.jpg');
+    background-size: cover;
+    color: lightgray;
 }
 
 #title{
@@ -30,10 +32,14 @@ body{
 
 .input-group input{
     padding:5px;
+    display: block;
 }
 
 #survey-form{
     text-align: left;
+    background: hsla(271, 72%, 24%, 0.8);
+    padding: 20px;
+    border-radius: 5px;
 }
 
 #dropdown{
@@ -41,5 +47,5 @@ body{
 }
 
 .selection-group{
-    display: block;
+    display: flex;
 }
