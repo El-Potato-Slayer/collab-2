@@ -13,9 +13,12 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <input id="name" placeholder="Enter your name" />
-      <input id="email" placeholder="Enter your email" type="email"/>
-      <input id="number" placeholder="Enter your number" type="number"/>
+      <label for="name" id="name-label">Name:</label>
+      <input id="name" required placeholder="Enter your name" />
+      <label for="email" id="email-label">Email:</label>
+      <input id="email" required placeholder="Enter your email" type="email"/>
+      <label for="number" id="number-label">Number:</label>
+      <input id="number" required placeholder="Enter your number" type="number" min="1" max="10"/>
     </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
