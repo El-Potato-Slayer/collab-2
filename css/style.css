@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+
+}
+
+#title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#description{
+    padding-bottom: 30px;
+}
+
+#container{
+    width: 500px;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+.input-group input{
+    padding:5px;
+}
+
+#survey-form{
+    text-align: left;
+}
+
+#dropdown{
+    display: block;
+}
+
+.selection-group{
+    display: block;
+}

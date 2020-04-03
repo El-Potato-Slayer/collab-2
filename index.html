@@ -1,13 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     Hello World, we are software developers!
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <div id="container">
+      <form id="survey-form">
+        <div class="input-group">
+          <label for="name" id="name-label">Name:</label>
+          <input id="name" required placeholder="Enter your name" />
+        </div>
+        <div class="input-group">
+          <label for="email" id="email-label">Email:</label>
+          <input id="email" required placeholder="Enter your email" type="email" />
+        </div>
+        <div class="input-group">
+          <label for="number" id="number-label">Number:</label>
+          <input
+            id="number"
+            required
+            placeholder="Enter your number"
+            type="number"
+            min="1"
+            max="10"
+          />
+        </div>
+        <div class="input-group">
+          <label for="dropdown">Select a car to drive: </label>
+          <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <p>Select your favorite food:</p>
+
+          <div class="selection-group">
+            <input type="radio" name="food" value="Pizza" />
+            <label>Pizza</label>
+          </div>
+
+          <div class="selection-group">
+            <input type="radio" name="food" value="Steak" />
+            <label>Steak</label>
+          </div>
+
+          <div class="selection-group">
+            <input type="radio" name="food" value="Hamburger" />
+            <label>Hamburger</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <p>Gender</p>
+          <div class="selection-group">
+            <input type="checkbox" name="bike" value="Male" />
+            <label>Male</label>
+          </div>
+
+          <div class="selection-group">
+            <input type="checkbox" name="bike" value="Female" />
+            <label>Female</label>
+          </div>
+        </div>
+        <textarea
+          name=""
+          id=""
+          placeholder="Additional comments"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div>
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
@@ -22,6 +99,6 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
